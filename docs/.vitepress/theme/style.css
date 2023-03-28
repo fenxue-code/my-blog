@@ -1,0 +1,33 @@
+.VPHome {
+  background: radial-gradient(ellipse, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.VPHome::before {
+  background-image: url(./assets/ff14.png);
+  background-size: cover;
+}
+
+:root {
+  --bg-gradient: 255, 255, 255, 0.8;
+}
+
+.VPFooter[data-v-70236e1e] {
+  background-color: transparent;
+}
+
+.VPHome {
+  background: radial-gradient(ellipse, white 0%, rgba(255, 255, 255, 0) 0%);
+}
+
+.VPFooter[data-v-70236e1e] {
+  border-top: none;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: none !important;
+}
+
+.aside {
+  padding-left: 0 !important;
+  max-width: 150px !important;
+}

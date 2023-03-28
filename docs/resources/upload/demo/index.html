@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload Demo</title>
+  <style>
+    .content {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .box {
+      width: 350px;
+      padding: 20px 10px;
+      margin: 20px;
+      background: pink;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    p {
+      width: 100%;
+    }
+    button {
+      background: #52C41A;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="box">
+      <p>多文件上传</p>
+      <input type="file" id="file-input" multiple />
+      <button id="upload-button">上传文件</button>
+    </div>
+    <div class="box">
+      <p>单文件切片上传</p>
+      <input type="file" id="file-input2">
+      <button id="upload-button2">上传</button>
+    </div>
+    <div class="box">
+      <p>单文件切片上传-并发控制</p>
+      <input type="file" id="file-input3">
+      <button id="upload-button3">上传</button>
+    </div>
+    <div class="box">
+      <p>单文件切片上传-并发控制 + 失败重复上传</p>
+      <input type="file" id="file-input4">
+      <button id="upload-button4">上传</button>
+    </div>
+  </div>
+  <script src="upload.js"></script>
+  <script src="upload2.js"></script>
+  <script src="upload3.js"></script>
+  <script src="upload4.js"></script>
+</body>
+</html>

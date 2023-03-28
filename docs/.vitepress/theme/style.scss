@@ -1,0 +1,33 @@
+.VPHome {
+  // 自定义首页背景图
+  &::before {
+    // 图片来源：https://zhuanlan.zhihu.com/p/54060187
+    background-image: url(./assets/ff14.png);
+    background-size: cover;
+  }
+  // 定义遮罩样式
+  background: radial-gradient(
+    ellipse,
+    rgba(#ffffff, 1) 0%,
+    rgba(#ffffff, 0) 100%
+  );
+}
+:root {
+  --bg-gradient: 255, 255, 255, 0.8;
+}
+.VPFooter[data-v-70236e1e] {
+  background-color: transparent;
+}
+.VPHome {
+  background: radial-gradient(ellipse, white 0%, rgba(255, 255, 255, 0) 0%);
+}
+.VPFooter[data-v-70236e1e] {
+  border-top: none;
+}
+.VPDoc.has-aside .content-container {
+  max-width: none !important;
+}
+.aside {
+  padding-left: 0 !important;
+  max-width: 150px !important;
+}

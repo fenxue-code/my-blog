@@ -1,6 +1,6 @@
 ---
 title: 文件上传
-description: 实现一下各种前端上传测试
+description: 实现一下各种前端上传
 cover: ../img/upload/upload.jpg
 tags:
  - 文档示例
